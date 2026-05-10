@@ -1,24 +1,24 @@
-# 🚚 Supply Chain Management System
+#  Supply Chain Management System
 
 A fully functional **Supply Chain Management CLI application** built with **Python and SQLite** — featuring supplier management, product inventory tracking, order processing, restock workflow, analytics dashboard, and CSV report export.
 
 ---
 
-## 📌 Features
+## Features
 
-### 🏭 Supplier Management
+###  Supplier Management
 - Add suppliers with contact and email
 - View all suppliers with status
 - Activate / deactivate suppliers
 - View all products per supplier
 
-### 📦 Product & Inventory
+### Product & Inventory
 - Add products with price, stock, category, restock threshold
 - View full product inventory with supplier info
 - Low stock alerts based on configurable threshold per product
 - Full inventory log history (every stock change tracked)
 
-### 🛒 Order Management
+###  Order Management
 - Place orders with real-time stock validation
 - Atomic transactions — rolls back on failure
 - Auto low stock warning after order placement
@@ -26,19 +26,19 @@ A fully functional **Supply Chain Management CLI application** built with **Pyth
 - Update order status (pending → confirmed → shipped → delivered)
 - Cancel orders with automatic stock restoration
 
-### 📊 Analytics Dashboard
+###  Analytics Dashboard
 - Total active suppliers, products, orders, revenue
 - Top 5 best-selling products
 - Supplier-wise performance (orders + revenue)
 - Category-wise stock summary
 
-### 📁 Export Reports
+###  Export Reports
 - `inventory_report.csv` — full product inventory
 - `orders_report.csv` — complete order history
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 supply_chain_project/
@@ -55,7 +55,7 @@ supply_chain_project/
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ```
 suppliers       → id, name, contact, email, status, created_at
@@ -66,7 +66,7 @@ inventory_logs  → id, product_id, change_qty, reason, logged_at
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Language:** Python 3
 - **Database:** SQLite3
@@ -74,7 +74,7 @@ inventory_logs  → id, product_id, change_qty, reason, logged_at
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Initialize the database
 ```bash
@@ -88,7 +88,7 @@ python main.py
 
 ---
 
-## 📋 Workflow
+##  Workflow
 
 ```
 Add Supplier → Add Product → Place Order → Update Status → Delivered
@@ -98,13 +98,13 @@ Add Supplier → Add Product → Place Order → Update Status → Delivered
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Dayanidhi Gudimetla**
 GitHub: [github.com/DayanidhiGudimetla](https://github.com/DayanidhiGudimetla)
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
